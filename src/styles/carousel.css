@@ -1,0 +1,28 @@
+/* #carouselExampleControls {
+  z-index: -1;
+}
+
+.carousel-control-prev {
+  z-index: -1;
+} */
+
+.carousel {
+  width: 100%;
+  margin: 0 auto;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.carousel-item {
+  width: 100%;
+  z-index: -1;
+}
+
+/* Break point Responsife */
+
+@media screen and (min-width: 650px) {
+  .carousel {
+    width: 50%;
+  }
+}

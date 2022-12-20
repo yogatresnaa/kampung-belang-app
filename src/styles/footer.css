@@ -1,0 +1,68 @@
+.footers {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    'picture picture picture'
+    'service service service'
+    'medsos medsos medsos';
+  justify-items: center;
+  background-color: rgb(142, 16, 94);
+  justify-content: space-between;
+  gap: 3px;
+  padding: 10px;
+}
+
+.picture-footer {
+  grid-area: picture;
+  width: 30%;
+}
+
+.picture-footer img {
+  width: 70%;
+  background-color: white;
+  border-radius: 5px;
+}
+.picture-footer P {
+  font-size: 12px;
+  color: white;
+  text-align: left;
+}
+
+.service {
+  grid-area: service;
+}
+.service h2 {
+  font-size: 18px;
+  color: white;
+}
+
+.service ul {
+  list-style: none;
+  padding: 0px;
+  color: white;
+}
+
+.link-medsos {
+  grid-area: medsos;
+  text-align: center;
+}
+
+.link-medsos h2 {
+  font-size: 18px;
+  color: white;
+}
+.link-medsos i {
+  font-size: 17px;
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+/* Breakpoint responsive */
+
+@media screen and (min-width: 650px) {
+  .footers {
+    grid-template-areas: 'picture service medsos';
+  }
+}

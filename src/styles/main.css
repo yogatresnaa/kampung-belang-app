@@ -1,0 +1,19 @@
+@import 'font-awesome/css/font-awesome.css';
+
+@import './header/header.css';
+@import './ourspesial.css';
+@import './profile.css';
+@import './carousel.css';
+@import './menus.css';
+@import './footer.css';
+@import './tredmark.css';
+@import './hero.css';
+
+/* Cafe Page */
+@import '../scripts/component/Layanan/cafe/cafeinfo.css';
+@import '../scripts/component/Layanan/cafe/banner.css';
+@import '../scripts/component/Layanan/cafe/menucafe.css';
+* {
+  padding: 0;
+  margin: 0;
+}

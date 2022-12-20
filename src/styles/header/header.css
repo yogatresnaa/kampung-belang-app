@@ -1,0 +1,161 @@
+.header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  justify-content: space-around;
+  background-color: rgb(142, 16, 94);
+  width: 100%;
+  margin-top: 0px;
+  padding: 3px;
+  z-index: 2;
+}
+
+.header h2 {
+  font-size: 12px;
+  color: white;
+}
+
+.header__inner {
+  padding: 10px;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.nav__list li {
+  list-style: none;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+.nav__list li {
+  line-height: normal;
+  padding: 10px;
+}
+
+.header__inner h3 {
+  font-family: segoe UI;
+  font-size: 30px;
+  color: white;
+}
+.nav__item a {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: white;
+  font-size: 15px;
+  padding: 17px;
+  text-align: center;
+}
+
+.nav__item a:hover {
+  color: rgb(126, 118, 118);
+  border-radius: 5px;
+  opacity: 1;
+}
+
+.nav ul li .drop-down-menu {
+  display: none;
+  background-color: rgb(142, 16, 94);
+  margin-top: 10px;
+}
+
+.nav ul li:hover .drop-down-menu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+.menu-toggle i {
+  display: none;
+}
+
+.header__inner {
+  width: 70px;
+}
+.header__inner img {
+  width: 100%;
+  background-color: aliceblue;
+  border-radius: 5px;
+}
+button {
+  display: none;
+}
+
+/* Breakpoint Header (responsive) */
+
+@media screen and (max-width: 600px) {
+  #drawer {
+    width: 100%;
+    position: absolute;
+    background-color: rgb(142, 16, 94);
+    left: 0;
+    margin-top: 50px;
+    text-align: center;
+    opacity: 0.9;
+
+    transition: transform 0.7s ease-in-out;
+    transform: translate(-100%, 0);
+    /* transform: translateX(100%); */
+  }
+  .nav__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav__item {
+    margin-top: 10px;
+    align-items: center;
+  }
+  .nav__item a:hover {
+    color: white;
+    background-color: rgb(20, 1, 13);
+    border-radius: 5px;
+    opacity: 1;
+    padding: 17px;
+  }
+  .drop-down-menu {
+    width: 100%;
+    left: 0;
+  }
+  .header__inner {
+    width: 70px;
+  }
+  .header__inner img {
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 5px;
+  }
+  button {
+    display: inline;
+    padding: 5px;
+  }
+}
+
+/* Hamburger menu */
+@media screen and (max-width: 600px) {
+  .menu-toggle {
+    padding: 10px;
+  }
+  .menu-toggle i {
+    display: inline;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  .menu-toggle i:hover {
+    color: rgb(125, 118, 118);
+    font-size: 25px;
+  }
+  /* button {
+    display: inline;
+    width: 44px;
+    height: 44px;
+    font-size: 30px;
+    color: white;
+  } */
+  #drawer.slide {
+    transform: translate(0, 0);
+  }
+}

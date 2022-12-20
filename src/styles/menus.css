@@ -1,0 +1,36 @@
+.menus {
+  margin: 30px auto;
+  display: grid;
+  gap: 10px;
+  padding: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.menu-picture {
+  margin: 10px auto;
+  background-color: rgb(142, 16, 94);
+  padding: 5px;
+  box-sizing: border-box;
+  width: 100%;
+  box-shadow: 0 0 5px rgb(254, 252, 252);
+  border-radius: 3px;
+}
+.menu-picture img {
+  width: 100%;
+}
+
+.menu-picture h2 {
+  color: white;
+  font-size: 18px;
+}
+.menu-picture p {
+  color: white;
+}
+
+/* Breakpoint Responsive */
+
+@media screen and (min-width: 650px) {
+  .menus {
+    width: 70%;
+  }
+}

@@ -1,0 +1,9 @@
+.narasi {
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.narasi p {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}

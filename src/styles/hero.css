@@ -1,0 +1,33 @@
+.hero {
+  width: 100%;
+  min-height: 400px;
+  background-position: center;
+  background-image: url('../public/heros/hero-image1.png');
+  background-repeat: no-repeat;
+  border: 1px soilid red;
+}
+
+/* .hero img {
+  width: 100%;
+  min-height: 100px;
+
+  align-items: center;
+} */
+
+/* breakpoint */
+@media screen and (min-width: 650px) {
+  .hero {
+    width: 100%;
+    min-height: 500px;
+    background-position: center;
+    background-image: url('../public/heros/hero-image1.png');
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    border: 1px soilid red;
+  }
+
+  /* .hero img {
+    width: 100%;
+    align-items: center;
+  } */
+}

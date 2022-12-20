@@ -1,0 +1,51 @@
+.banner {
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 40px 0px 40px 0px;
+  background-color: rgb(142, 16, 94);
+  padding: 10px;
+}
+.banner .img1 {
+  border-radius: 40px 0px 40px 0px;
+  border: 10px solid white;
+  margin-bottom: 10px;
+}
+
+.banner .img2 {
+  border-radius: 0px 40px 0px 40px;
+  border: 10px solid white;
+  margin-bottom: 10px;
+}
+.banner img {
+  width: 100%;
+}
+
+.banner p {
+  color: white;
+}
+
+/* Breakpoint */
+
+@media screen and (min-width: 650px) {
+  .banner {
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+  .banner img {
+    width: 50%;
+  }
+  .banner p {
+    padding: 30px;
+    width: 60%;
+    box-sizing: border-box;
+  }
+
+  .banner .img2 {
+    margin-left: 10px;
+  }
+}

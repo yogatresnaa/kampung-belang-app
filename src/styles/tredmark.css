@@ -1,0 +1,19 @@
+.tredmark {
+  background-color: rgb(142, 16, 94);
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+.tredmark p {
+  text-align: center;
+  color: white;
+  font-size: 11px;
+}
+
+/* Breakpoint */
+
+@media screen and (min-width: 600px) {
+  .tredmark {
+    display: none;
+  }
+}
