@@ -1,7 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
-const { GenerateSW } = require('workbox-webpack-plugin');
+
 // const ServiceWorkerWebpackPlugin = require('serviceworker-webpack-plugin');
 
 module.exports = {
@@ -29,7 +29,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      kb: path.resolve(__dirname, 'src/public/kb.png'),
+      // kb: path.resolve(__dirname, 'src/public/kb.png'),
       filename: 'index.html',
       template: path.resolve(__dirname, 'src/templates/index.html'),
     }),
@@ -41,38 +41,5 @@ module.exports = {
         },
       ],
     }),
-    new GenerateSW({
-      swDest: './sw.bundel.js',
-      maximumFileSizeToCacheInBytes: 5 * 1024 * 1024,
-      // runtimeCaching: [
-      //   {
-      //     urlPattern: ({ request }) => request.destination === 'image',
-      //     handler: 'StaleWhileRevalidate',
-      //     options: {
-      //       cacheName: 'heros',
-      //       expiration: {
-      //         maxEntries: 60,
-      //       },
-      //     },
-      //   },
-      //   {
-      //     urlPattern: /^https:\/\/kit\.fontawesome\.com/,
-      //     handler: 'StaleWhileRevalidate',
-      //     options: {
-      //       cacheName: 'font-awesome',
-      //     },
-      //   },
-      //   {
-      //     urlPattern: /^https:\/\/fonts\.googleapis\.com/,
-      //     handler: 'StaleWhileRevalidate',
-      //     options: {
-      //       cacheName: 'google-fonts-stylesheets',
-      //     },
-      //   },
-      // ],
-    }),
-    // new ServiceWorkerWebpackPlugin({
-    //   entry: path.resolve(__dirname, 'src/scripts/sw.js'),
-    // }),
   ],
 };

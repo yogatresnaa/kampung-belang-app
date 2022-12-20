@@ -19,7 +19,7 @@ export default swRegister;
 //   if ('serviceWorker' in navigator) {
 //     // await runtime.register();
 //     try {
-//       await navigator.serviceWorker.register('./sw.bundle.js');
+//       await navigator.serviceWorker.register('./sw.js');
 //       console.log('service worker registration success');
 //     } catch (error) {
 //       console.log('service worker registration success');
