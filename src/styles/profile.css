@@ -1,10 +1,11 @@
 .profil {
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  padding: 15px;
   background-color: rgb(142, 16, 94);
   margin: 20px auto;
   border-radius: 40px 0px 40px 0px;
+  width: 90%;
 }
 
 .image-profil {
@@ -33,6 +34,7 @@
     align-items: center;
     justify-content: space-between;
     width: 70%;
+    padding: 10px;
   }
   .image-profil {
     width: 60%;

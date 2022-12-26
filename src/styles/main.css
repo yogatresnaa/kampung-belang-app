@@ -13,6 +13,9 @@
 @import '../scripts/component/Layanan/cafe/cafeinfo.css';
 @import '../scripts/component/Layanan/cafe/banner.css';
 @import '../scripts/component/Layanan/cafe/menucafe.css';
+
+/* Detail Menu Cafe */
+@import '../scripts/views/pages/DetailPage/detailMenuCafe.css';
 * {
   padding: 0;
   margin: 0;

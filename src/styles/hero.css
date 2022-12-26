@@ -2,7 +2,7 @@
   width: 100%;
   min-height: 400px;
   background-position: center;
-  background-image: url('../public/heros/hero-image1.png');
+  background-image: url('../public/heros/hero-image_2.jpg');
   background-repeat: no-repeat;
   border: 1px soilid red;
 }
@@ -18,10 +18,10 @@
 @media screen and (min-width: 650px) {
   .hero {
     width: 100%;
-    min-height: 500px;
-    background-position: center;
-    background-image: url('../public/heros/hero-image1.png');
+    min-height: 550px;
+    background-image: url('../public/heros/hero-image_2.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
     margin-top: 0px;
     border: 1px soilid red;
   }
@@ -29,5 +29,6 @@
   /* .hero img {
     width: 100%;
     align-items: center;
+    border: 1px soilid red;
   } */
 }

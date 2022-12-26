@@ -9,7 +9,10 @@ const KpCace = {
     return `
         <cafe-info></cafe-info>
         <banner-image></banner-image>
+        <div class="menucafe">
+        <h3> Menu Cafe </h3>
         <div class="menu-cafe">
+        </div>
         </div>
       
         

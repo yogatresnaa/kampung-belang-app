@@ -12,16 +12,29 @@ const templateMenuUtamaResto = (menu) => `
 
 const templateMenuCafe = (menucafe) => `
 
-    <div class = "menu-cafe-item">
+    <div class = "menu-cafe-item" >
         <img src="${menucafe.imageMenu}" alt="...">
         <div class="descrip">
-              <h2>${menucafe.title}</h2>
-              <p>${menucafe.description}<p>
-              <p>${menucafe.harga}<p>
+             <h2>${menucafe.title}</h2>
+              <p>${menucafe.harga}</p>
+              <a href="#/detailmenucafe/${menucafe.id}"><p>Lihat Detail</p><a/>
+              
+        </div>
+    </div
+
+`;
+
+const templateDetailmenucafe = (detailmenucafe) => `
+        <div class = "detail-cafe-item">
+        <img src="${detailmenucafe.imageMenu}" alt="...">
+        <div class="descrip">
+              <h2>${detailmenucafe.title}</h2>
+              <h3>${detailmenucafe.description}</h3>
+              <p>${detailmenucafe.harga}</p>
         </div>
   
     </div
 
 `;
 
-export { templateMenuUtamaResto, templateMenuCafe };
+export { templateMenuUtamaResto, templateMenuCafe, templateDetailmenucafe };

@@ -1,8 +1,8 @@
 .banner {
   width: 90%;
   margin: 10px auto;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
   border-radius: 40px 0px 40px 0px;
   background-color: rgb(142, 16, 94);
   padding: 10px;
@@ -30,22 +30,39 @@
 
 @media screen and (min-width: 650px) {
   .banner {
-    flex-direction: row;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      'banner1 banner2'
+      'textbanner textbanner';
     align-items: center;
-    padding: 10px;
+    box-sizing: border-box;
+    width: 80%;
     justify-content: space-between;
-    box-sizing: border-box;
-  }
-  .banner img {
-    width: 50%;
-  }
-  .banner p {
-    padding: 30px;
-    width: 60%;
-    box-sizing: border-box;
   }
 
-  .banner .img2 {
-    margin-left: 10px;
+  .banner-image1 {
+    grid-area: banner1;
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .banner-image2 {
+    grid-area: banner2;
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .text-banner {
+    grid-area: textbanner;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .banner img {
+    width: 100%;
+  }
+  .banner p {
+    padding: 20px;
+    box-sizing: border-box;
   }
 }
