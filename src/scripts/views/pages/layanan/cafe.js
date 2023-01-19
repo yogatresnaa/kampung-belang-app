@@ -1,5 +1,6 @@
 import '../../../component/Layanan/cafe/cafe-info';
 import '../../../component/Layanan/cafe/banner-image';
+import '../../../component/Layanan/cafe/galery';
 import '../../../component/Layanan/cafe/menu-cafe';
 import menuscafe from '../../../data/menuscafe';
 import { templateMenuCafe } from '../teplatecreator/template-creator';
@@ -14,6 +15,7 @@ const KpCace = {
         <div class="menu-cafe">
         </div>
         </div>
+        <banner-galery></banner-galery>
       
         
         `;

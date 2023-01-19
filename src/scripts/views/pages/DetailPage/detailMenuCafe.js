@@ -7,7 +7,10 @@ import { templateDetailmenucafe } from '../teplatecreator/template-creator';
 const DetailMenucafe = {
   render() {
     return `
+   
     <div class="details-cafe">
+    <p>Back</p>
+     <h1>Detail Menu</h1>
         </div>
         `;
   },

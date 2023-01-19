@@ -16,6 +16,9 @@
 
 /* Detail Menu Cafe */
 @import '../scripts/views/pages/DetailPage/detailMenuCafe.css';
+
+/* Page Aula Serbaguna */
+@import '../scripts/component/Layanan/aula/aula.css';
 * {
   padding: 0;
   margin: 0;

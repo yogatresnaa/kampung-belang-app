@@ -23,7 +23,6 @@
   flex-direction: row;
   box-shadow: 0 0 3px rgb(181, 175, 180);
   border-radius: 5px;
-  cursor: pointer;
 }
 
 .menu-cafe-item img {
@@ -41,6 +40,7 @@
 
 .descrip a {
   text-decoration: none;
+  cursor: pointer;
 }
 .descrip a p {
   border: 1px solid red;

@@ -9,7 +9,7 @@ import './component/footer/tredmark.js';
 import './component/main/mainContent.js';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import swRegister from './utils/sw.register';
+import swRegister from './utils/sw-register.js';
 import App from './views/app';
 
 const app = new App({

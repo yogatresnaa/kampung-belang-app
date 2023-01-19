@@ -28,7 +28,7 @@ class HeaderNavigation extends HTMLElement {
             <ul class="drop-down-menu">
                 <li><a href="#/cafe">Cafe</a></li>
                 <li><a href="#/restoran">Restoran</a></li>
-                <li><a href="#">Aula Serbaguna</a></li>
+                <li><a href="#/aula">Aula Serbaguna</a></li>
                 <li><a href="#">Senam</a></li>
             </ul>
             </li>

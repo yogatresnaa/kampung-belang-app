@@ -13,10 +13,10 @@ class Sliders extends HTMLElement {
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="./heros/slide3.png" class="d-block w-100" alt="...">
+      <img src="./heros/hero-image_1.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="./heros/slide2.png" class="d-block w-100" alt="...">
+      <img src="./heros/hero-image_2.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">

@@ -18,7 +18,7 @@ class OurSpesial extends HTMLElement {
 <p>Cafe</p></a></h3>
             </div>
             <div class="menu2">
-                <h3><a href="#"><i class="fa fa-building" aria-hidden="true"></i>
+                <h3><a href="#/aula"><i class="fa fa-building" aria-hidden="true"></i>
 <p>Aula Serbaguna</p></a></h3>
             </div>
             <div class="menu3">

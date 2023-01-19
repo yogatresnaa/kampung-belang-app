@@ -1,0 +1,49 @@
+.hero-image-aula {
+  width: 90%;
+  margin: 70px auto;
+}
+
+.hero-image-aula img {
+  width: 100%;
+}
+
+.descripsi-aula {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 95%;
+  gap: 5px;
+  margin: 0px auto;
+}
+
+.card-aula-item {
+  box-shadow: 0 0 3px rgb(143, 4, 99);
+  padding: 5px;
+  box-sizing: border-box;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+
+.descripsi-aula img {
+  width: 100%;
+}
+
+.descripsi-aula h3 {
+  font-size: 15px;
+  font-weight: bold;
+  color: brown;
+  margin: 10px auto;
+}
+
+.descripsi-aula p {
+  font-size: 11px;
+}
+
+/* breakpoint */
+
+@media screen and (min-width: 1000px) {
+  .descripsi-aula {
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    gap: 10px;
+  }
+}

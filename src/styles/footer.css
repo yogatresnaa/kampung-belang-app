@@ -33,7 +33,7 @@
   grid-area: service;
 }
 .service h2 {
-  font-size: 18px;
+  font-size: 15px;
   color: white;
 }
 
@@ -42,14 +42,16 @@
   padding: 0px;
   color: white;
 }
+.service ul li {
+  font-size: 10px;
+}
 
 .link-medsos {
   grid-area: medsos;
-  text-align: center;
 }
 
 .link-medsos h2 {
-  font-size: 18px;
+  font-size: 15px;
   color: white;
 }
 .link-medsos i {

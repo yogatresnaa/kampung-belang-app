@@ -1,3 +1,4 @@
+/* eslint-disable object-curly-newline */
 /* eslint-disable import/prefer-default-export */
 /* eslint-disable no-unused-vars */
 
@@ -27,14 +28,28 @@ const templateMenuCafe = (menucafe) => `
 const templateDetailmenucafe = (detailmenucafe) => `
         <div class = "detail-cafe-item">
         <img src="${detailmenucafe.imageMenu}" alt="...">
-        <div class="descrip">
+        <div class="description">
               <h2>${detailmenucafe.title}</h2>
-              <h3>${detailmenucafe.description}</h3>
-              <p>${detailmenucafe.harga}</p>
+              <h3> ${detailmenucafe.description}</h3>
+              <p> Harga  ${detailmenucafe.harga}</p>
         </div>
   
     </div
 
 `;
 
-export { templateMenuUtamaResto, templateMenuCafe, templateDetailmenucafe };
+const templateCardAula = (aula) => `
+
+<div class="card-aula-item">
+    <img src="${aula.imageMenu}" alt="..">
+    <div class="descrip-aula">
+         <h3>${aula.title}</h3>
+        <p> ${aula.description}</p>
+    </div>
+
+</div>
+
+
+`;
+
+export { templateMenuUtamaResto, templateMenuCafe, templateDetailmenucafe, templateCardAula };
