@@ -1,0 +1,62 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 30px auto 20px auto;
+  width: 90%;
+  box-shadow: 0 0 5px rgb(143, 4, 99);
+}
+
+.maps-location {
+  margin-bottom: 40px;
+}
+
+.form-contact {
+  margin-top: 50px;
+  /* box-shadow: 0 0 5px rgb(143, 4, 99); */
+  padding: 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.color {
+  background-color: rgb(103, 8, 65) !important;
+  color: white !important;
+}
+
+/* Breakpoint */
+
+@media screen and (min-width: 800px) {
+  .form {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+  }
+  .maps-location {
+    margin: 0 auto;
+    width: 50%;
+    align-self: center;
+  }
+  .form-contact {
+    margin: 0px auto;
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .form {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 70%;
+  }
+  .maps-location {
+    margin: 0 auto;
+    width: 50%;
+    align-self: center;
+  }
+  .form-contact {
+    margin: 0px auto;
+    width: 40%;
+  }
+}

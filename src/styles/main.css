@@ -19,6 +19,9 @@
 
 /* Page Aula Serbaguna */
 @import '../scripts/component/Layanan/aula/aula.css';
+
+/* form-contact */
+@import '../scripts/component/hubungiKami/formContact.css';
 * {
   padding: 0;
   margin: 0;
