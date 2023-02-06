@@ -16,32 +16,32 @@ class FormContact extends HTMLElement {
 
       <div class="form-contact">
         <h2>Hubungi Kami</h2>
-        <form action="#" method="#">
+        <form action="/addFormData" method="POST">
           <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Nama Lengkap</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="nama anda">
-        </div>
+            <label for="nameInputId" class="form-label">Nama Lengkap</label>
+            <input type="text" class="form-control" id="nameInputId" placeholder="nama anda">
+          </div>
 
-        <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">No.Telp/Ponsel</label>
-            <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="no.telp/ponsel">
-        </div>
+          <div class="mb-3">
+              <label for="noTlpInputId" class="form-label">No.Telp/Ponsel</label>
+              <input type="number" class="form-control" id="noTlpInputId" placeholder="no.telp/ponsel">
+          </div>
 
-         <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-        </div>
+          <div class="mb-3">
+              <label for="emailInputId" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="emailInputId" placeholder="name@example.com">
+          </div>
 
-        <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Subjek</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Subjek">
-        </div>
+          <div class="mb-3">
+              <label for="lableInputId" class="form-label">Subjek</label>
+              <input type="text" class="form-control" id="lableInputId" placeholder="Subjek">
+          </div>
 
-        <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Pesan Anda</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-        <input class="btn color" type="submit" value="Mengirim Pesan">
+          <div class="mb-3">
+              <label for="FormControlTextarea1" class="form-label">Pesan Anda</label>
+              <textarea class="form-control" id="FormControlTextarea1" rows="3"></textarea>
+          </div>
+          <input class="btn color" type="submit" value="Mengirim Pesan">
         </form>
 
         
