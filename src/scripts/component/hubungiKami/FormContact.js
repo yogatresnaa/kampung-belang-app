@@ -1,5 +1,7 @@
 /* eslint-disable lines-between-class-members */
 /* eslint-disable no-useless-constructor */
+// import API_ENDPOINT from '../../globals/api_endpoint';
+
 class FormContact extends HTMLElement {
   constructor() {
     super();
@@ -16,7 +18,7 @@ class FormContact extends HTMLElement {
 
       <div class="form-contact">
         <h2>Hubungi Kami</h2>
-        <form action="/addFormData" method="POST">
+        <form action="#/datacustomer" method="POST">
           <div class="mb-3">
             <label for="nameInputId" class="form-label">Nama Lengkap</label>
             <input type="text" class="form-control" id="nameInputId" placeholder="nama anda">
@@ -41,7 +43,7 @@ class FormContact extends HTMLElement {
               <label for="FormControlTextarea1" class="form-label">Pesan Anda</label>
               <textarea class="form-control" id="FormControlTextarea1" rows="3"></textarea>
           </div>
-          <input class="btn color" type="submit" value="Mengirim Pesan">
+          <button id="submitForm" class="btn color" type="submit">kirim</button>
         </form>
 
         
