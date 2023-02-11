@@ -22,6 +22,10 @@
 
 /* form-contact */
 @import '../scripts/component/hubungiKami/formContact.css';
+/* Dashboard */
+@import '../scripts/views/pages/PageDashboard/dashboard.css';
+@import '../scripts/views/pages/PageDashboard/table.css';
+
 * {
   padding: 0;
   margin: 0;

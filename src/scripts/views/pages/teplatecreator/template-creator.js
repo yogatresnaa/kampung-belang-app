@@ -1,9 +1,10 @@
+/* eslint-disable function-paren-newline */
+/* eslint-disable max-len */
 /* eslint-disable object-curly-newline */
-/* eslint-disable import/prefer-default-export */
-/* eslint-disable no-unused-vars */
-
+/* eslint-disable implicit-arrow-linebreak */
+/* eslint-disable indent */
+/* eslint-disable comma-dangle */
 const templateMenuUtamaResto = (menu) => `
-
  <div class="menu-picture">
             <img src="${menu.imageMenu}" alt="...">
              <h2>${menu.title}</h2>
@@ -48,8 +49,38 @@ const templateCardAula = (aula) => `
     </div>
 
 </div>
-
-
 `;
 
-export { templateMenuUtamaResto, templateMenuCafe, templateDetailmenucafe, templateCardAula };
+// Dashboard
+const tempalteTableDataCustomer = (customers) => `
+
+<div class = "tabledatacustomer">
+    <table class = "scroll">
+        <thead>
+            <tr>
+              <th>id</th>
+                <th>Nama Pelanggan</th>
+                <th>No Telpon/ WA</th>
+                <th>email</th>
+                <th>Subjek</th>
+                <th>Pesan</th>
+                <th>createdAt</th>
+        </thead>
+        <tbody>
+        ${customers.map(
+          (customer) =>
+            `<tr>
+                <td>${customer.id}</td>
+                <td>${customer.nama}</td>
+                <td>${customer.noHp}</td>
+                <td>${customer.email}</td>
+                <td>${customer.subjek}</td>
+                <td>${customer.pesan}</td>
+                <td>${customer.createdAt}</td>`
+        )}
+        </tbody>
+    </table>
+<div>
+`;
+
+export { templateMenuUtamaResto, templateMenuCafe, templateDetailmenucafe, templateCardAula, tempalteTableDataCustomer };

@@ -18,7 +18,7 @@ class FormContact extends HTMLElement {
 
       <div class="form-contact">
         <h2>Hubungi Kami</h2>
-        <form action="#/datacustomer" method="POST">
+        <form>
           <div class="mb-3">
             <label for="nameInputId" class="form-label">Nama Lengkap</label>
             <input type="text" class="form-control" id="nameInputId" placeholder="nama anda">
@@ -26,7 +26,7 @@ class FormContact extends HTMLElement {
 
           <div class="mb-3">
               <label for="noTlpInputId" class="form-label">No.Telp/Ponsel</label>
-              <input type="number" class="form-control" id="noTlpInputId" placeholder="no.telp/ponsel">
+              <input type="text" class="form-control" id="noTlpInputId" placeholder="no.telp/ponsel">
           </div>
 
           <div class="mb-3">

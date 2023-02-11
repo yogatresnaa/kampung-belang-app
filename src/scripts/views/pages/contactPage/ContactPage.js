@@ -24,7 +24,8 @@ const ContactForm = {
     const inputTexareaId = document.querySelector('#FormControlTextarea1');
     const SubmitFrom = document.querySelector('#submitForm');
 
-    SubmitFrom.addEventListener('click', function () {
+    SubmitFrom.addEventListener('click', function (e) {
+      e.preventDefault();
       const customer = {
         nama: inputFormNameId.value,
         noHp: inputFormTelpId.value,
@@ -37,21 +38,12 @@ const ContactForm = {
   },
 };
 
-const getForm = async () => {
-  const response = await fetch(`${API_ENDPOINT.form}`);
-  const responseJson = await response.json();
-  if (responseJson.error) {
-    alert('Data gagal d masukan');
-  } else {
-    alert('data berhasil masuk');
-  }
-  return responseJson;
-};
-
 const insertCustomer = async (customer) => {
+  console.log(customer);
   try {
     const options = {
       method: 'POST',
+      mode: 'cors',
       headers: {
         'Content-Type': 'application/json',
         // 'X-Auth-Token': '12345',
@@ -60,11 +52,13 @@ const insertCustomer = async (customer) => {
     };
 
     const response = await fetch(`${API_ENDPOINT.form}`, options);
+    console.log(response);
     const responseJson = await response.json();
+    console.log(responseJson);
     showResponseMessage(responseJson.message);
-    getForm();
   } catch (error) {
     showResponseMessage(error);
+    console.log(error);
   }
 };
 

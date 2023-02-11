@@ -6,7 +6,7 @@ import RestoPage from '../views/pages/layanan/resto-page';
 import DetailMenucafe from '../views/pages/DetailPage/detailMenuCafe';
 import Aula from '../views/pages/layanan/aulaSerbaguna';
 import ContactForm from '../views/pages/contactPage/ContactPage';
-import DataCustomer from '../views/pages/contactPage/datacustomer';
+import DashboardKampungBelang from '../views/pages/PageDashboard/DashboardKampungBelang';
 const routes = {
   '/': Homepage, //default page
   '/home': Homepage,
@@ -15,7 +15,7 @@ const routes = {
   '/detailmenucafe/:id': DetailMenucafe,
   '/aula': Aula,
   '/contact': ContactForm,
-  '/datacustomer': DataCustomer,
+  '/dashboardkampungbelang': DashboardKampungBelang,
 };
 
 export default routes;
