@@ -67,17 +67,20 @@ const tempalteTableDataCustomer = (customers) => `
                 <th>createdAt</th>
         </thead>
         <tbody>
-        ${customers.map(
-          (customer) =>
-            `<tr>
-                <td>${customer.id}</td>
-                <td>${customer.nama}</td>
-                <td>${customer.noHp}</td>
-                <td>${customer.email}</td>
-                <td>${customer.subjek}</td>
-                <td>${customer.pesan}</td>
-                <td>${customer.createdAt}</td>`
-        )}
+        ${customers
+          .map(
+            (customer) =>
+              `<tr>
+            <td>${customer.id}</td>
+            <td>${customer.nama}</td>
+            <td>${customer.noHp}</td>
+            <td>${customer.email}</td>
+            <td>${customer.subjek}</td>
+            <td>${customer.pesan}</td>
+            <td>${customer.createdAt}</td>
+          </tr>`
+          )
+          .join('')}
         </tbody>
     </table>
 <div>
