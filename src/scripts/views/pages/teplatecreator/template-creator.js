@@ -6,9 +6,11 @@
 /* eslint-disable comma-dangle */
 const templateMenuUtamaResto = (menu) => `
  <div class="menu-picture">
+            <p> ${menu.menu} </p>
             <img src="${menu.imageMenu}" alt="...">
              <h2>${menu.title}</h2>
               <p>${menu.description}</p>
+              <p>${menu.harga}</p>
           </div>
 `;
 

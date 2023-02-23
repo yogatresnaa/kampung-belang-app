@@ -24,7 +24,7 @@
 
 .menu-picture h2 {
   color: white;
-  font-size: 18px;
+  font-size: 14px;
 }
 .menu-picture p {
   color: white;
@@ -35,5 +35,8 @@
 @media screen and (min-width: 650px) {
   .menus {
     width: 70%;
+  }
+  .menu-picture img {
+    height: 45%;
   }
 }
