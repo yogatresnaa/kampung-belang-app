@@ -6,12 +6,15 @@
 /* eslint-disable comma-dangle */
 const templateMenuUtamaResto = (menu) => `
  <div class="menu-picture">
-            <p> ${menu.menu} </p>
-            <img src="${menu.imageMenu}" alt="...">
-             <h2>${menu.title}</h2>
-              <p>${menu.description}</p>
-              <p>${menu.harga}</p>
-          </div>
+    <p> ${menu.menu} </p>
+    <img src="${menu.imageMenu}" alt="...">
+    <ul>
+        <li><h2>${menu.title}</h2></li>
+        <li><p>${menu.description}</p></li>
+        <li> <p>${menu.harga}</p></li>
+    </ul>
+    <p>Pesan Sekarang</p>
+</div>
 `;
 
 const templateMenuCafe = (menucafe) => `
@@ -69,17 +72,21 @@ const tempalteTableDataCustomer = (customers) => `
                 <th>createdAt</th>
         </thead>
         <tbody>
-        ${customers.map(
-          (customer) =>
-            `<tr>
+        ${customers
+          .map(
+            (customer) =>
+              `<tr>
                 <td>${customer.id}</td>
                 <td>${customer.nama}</td>
                 <td>${customer.noHp}</td>
                 <td>${customer.email}</td>
                 <td>${customer.subjek}</td>
                 <td>${customer.pesan}</td>
-                <td>${customer.createdAt}</td>`
-        )}
+                <td>${customer.createdAt}</td>
+             </tr>   
+                `
+          )
+          .join('')}
         </tbody>
     </table>
 <div>
