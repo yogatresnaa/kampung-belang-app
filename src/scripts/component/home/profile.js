@@ -11,7 +11,7 @@ class Profil extends HTMLElement {
     this.innerHTML = `
             <div class="profil">
               <div class="image-profil">
-                <img src="./heros/hero-image_2.jpg" alt"gambar profil">
+                <img src="./asset/gedung_depan.JPG" alt"gambar profil">
               </div>
               <div class="description-profil">
                 <h3>Profil</h3>

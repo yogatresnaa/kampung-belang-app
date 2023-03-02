@@ -11,11 +11,11 @@ class BannerGalery extends HTMLElement {
     this.innerHTML = `
     <div class="banner">
     <div class="banner-image1">
-      <img src="./heros/hero-image_2.jpg" class="img1">
+      <img src="./asset/slide3.JPG" class="img1">
     </div>
 
     <div class="banner-image2">
-      <img src="./heros/hero-image_1.jpg" class="img2">
+      <img src="./asset/slide4.JPG" class="img2">
     </div>
 
         

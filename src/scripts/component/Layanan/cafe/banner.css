@@ -36,19 +36,19 @@
       'textbanner textbanner';
     align-items: center;
     box-sizing: border-box;
-    width: 80%;
+    width: 70%;
     justify-content: space-between;
   }
 
   .banner-image1 {
     grid-area: banner1;
-    width: 90%;
+    width: 80%;
     margin: 10px auto;
   }
 
   .banner-image2 {
     grid-area: banner2;
-    width: 90%;
+    width: 80%;
     margin: 10px auto;
   }
 

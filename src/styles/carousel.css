@@ -25,4 +25,8 @@
   .carousel {
     width: 50%;
   }
+  .carousel-item {
+    width: 50%;
+    max-height: 500px;
+  }
 }

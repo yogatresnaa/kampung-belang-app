@@ -12,7 +12,7 @@ class AulaSerbaguna extends HTMLElement {
     this.innerHTML = `
     <div class="aula-cafe">
     <div class="hero-image-aula">
-       <img src="./heros/hero-image_2.jpg" alt"">
+       <img src="./asset/gedung_depan.JPG" alt"">
     </div>
     
     </div>
