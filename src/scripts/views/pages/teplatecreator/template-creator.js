@@ -25,7 +25,6 @@ const templateMenuCafe = (menucafe) => `
              <h2>${menucafe.title}</h2>
               <p>${menucafe.harga}</p>
               <a href="#/detailmenucafe/${menucafe.id}"><p>Lihat Detail</p><a/>
-              
         </div>
     </div
 

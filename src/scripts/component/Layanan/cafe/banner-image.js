@@ -16,13 +16,11 @@ class Banner extends HTMLElement {
 
     <div class="banner-image2">
       <img src="./asset/minuman8.JPG" class="img2">
-    </div>
+    </div>    
     <div class="text-banner">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptatem esse sapiente, blanditiis facere consequuntur delectus consectetur excepturi quia. Quisquam. A voluptatem esse sapiente, blanditiis facere consequuntur delectus consectetur excepturi quia. Quisquam</p>
+    <p>Aneka minuman dan cemilan yang menggugah selera yang akan membuat mood kalian kembali hidup, di dukung dengan suasanan yang nyaman. cocok untuk ngobrol-ngobrol atau untuk sekedar mengerjakan tugas kuliah</p>
     </div>
-        
-        
-        
+
     </div>
 
     

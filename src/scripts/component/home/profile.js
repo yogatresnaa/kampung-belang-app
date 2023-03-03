@@ -15,7 +15,7 @@ class Profil extends HTMLElement {
               </div>
               <div class="description-profil">
                 <h3>Profil</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod voluptatibus et iusto voluptates mollitia ipsa libero dolorum earum quasi. Praesentium earum distinctio maiores sequi nam? Explicabo quibusdam commodi facilis, exercitationem ratione dolorem magnam iusto, nisi quo harum rem, sit sequi!</p>
+                <p>Resto Kampung Belang berdiri pada tahun 2016. yang berlokasi di Jl. Mandor Tadjir No.184, Curug, Kec. Bojongsari, Kota Depok. Alhamdulillah saat ini Resto Kampung Belang masih berjalan dan terus bertumbuh. Selain menyediakan beraneka ragam menu-menu favorit, di sini kami juga menyediakan beberapa fasilitas lain demi kenyamanan pelanggan kami. Mari mampir dan singgah sejenak di kampung belang dan nikmati pelayanan yang kami berikan.</p>
               
               </div>
                 

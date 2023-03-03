@@ -13,10 +13,10 @@ class CafeInfo extends HTMLElement {
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner narasi">
     <div class="carousel-item active ">
-      <p class="d-block w-100">" Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet ex numquam quis tempora a culpa aspernatur rerum, assumenda eius autem."</p>
+      <p class="d-block w-100">" Hidup yang tidak pernah diperjuangkan, tidak akan pernah dimenangkan."</p>
     </div>
     <div class="carousel-item">
-      <p class="d-block w-100">" Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet ex numquam quis tempora a culpa aspernatur rerum, assumenda eius autem." </p>
+      <p class="d-block w-100">" Hidup ini begitu singkat, maka perjuangkanlah apa yang kamu inginkan demi kebaikan mu ataupun kebaikan untuk sesama." </p>
     </div>
     <div class="carousel-item">
         <p class="d-block w-100">" Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet ex numquam quis tempora a culpa aspernatur rerum, assumenda eius autem."</p>
