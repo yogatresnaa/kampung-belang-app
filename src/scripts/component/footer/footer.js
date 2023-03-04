@@ -30,10 +30,10 @@ class Footer extends HTMLElement {
         <div class="link-medsos">
           <h2>Kunjungi Kami disini</h2>
           
-            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            <a href="https://web.facebook.com/profile.php?id=100063612998630" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
             <i class="fa fa-twitter" aria-hidden="true"></i>
-            <i class="fa fa-instagram" aria-hidden="true"></i>
-            <i class="fa fa-whatsapp" aria-hidden="true"></i>
+            <a href="https://www.instagram.com/kampungbelangofficial/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://bit.ly/3ZGg8J8" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
         </div>
 
         <div>
