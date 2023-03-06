@@ -30,9 +30,8 @@ class OurSpesial extends HTMLElement {
 <p>Musolah</p></a></h3>
             </div>
             <div class="menu5">
-                <h3><a href="#"><i class="fa fa-child" aria-hidden="true"></i>
-                <i class="fa fa-child" aria-hidden="true"></i>
-                <p>Senam</p></a></h3>
+                <h3><a href="#/contact"><i class="fa fa-wpforms" aria-hidden="true"></i>
+                <p>Layanan Form Contac</p></a></h3>
             </div>
             <div class="menu6">
                 <h3><a href="#"><i class="fa fa-music" aria-hidden="true"></i>
