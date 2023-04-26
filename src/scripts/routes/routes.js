@@ -17,5 +17,4 @@ const routes = {
   '/contact': ContactForm,
   '/dashboardkampungbelang': DashboardKampungBelang,
 };
-
 export default routes;
