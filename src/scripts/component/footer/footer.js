@@ -28,7 +28,7 @@ class Footer extends HTMLElement {
             </ul>
         </div>
         <div class="link-medsos">
-          <h2>Kunjungi Kami disini</h2>
+          <h2>Kunjungi Medsos Kami</h2>
           
             <a href="https://web.facebook.com/profile.php?id=100063612998630" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
             <i class="fa fa-twitter" aria-hidden="true"></i>

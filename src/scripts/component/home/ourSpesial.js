@@ -11,7 +11,7 @@ class OurSpesial extends HTMLElement {
   render() {
     this.innerHTML = `
         <div class="item_spesial">
-            <h2>Layanan</h2>
+            <h2>Layanan Kami</h2>
             <div class="item_layanan">
                  <div class="menu1">
                 <h3><a href="#/cafe"><i class="fa fa-coffee" aria-hidden="true"></i>

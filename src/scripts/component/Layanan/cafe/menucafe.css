@@ -52,7 +52,17 @@
   box-sizing: border-box;
   border-radius: 5px;
   font-weight: bold;
-  margin-top: 30px;
+}
+
+.descrip a h5 {
+  font-size: 12px;
+  color: white;
+  width: 100px;
+  background-color: rgb(44, 165, 42);
+  text-align: center;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
 }
 
 .menu-cafe-item h2 {

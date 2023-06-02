@@ -6,13 +6,16 @@
 /* eslint-disable no-unused-expressions */
 import '../../../component/hubungiKami/FormContact';
 import '../../../component/home/heroImage';
+import '../../../component/home/ourSpesial';
 import API_ENDPOINT from '../../../globals/api_endpoint';
 
 const ContactForm = {
   async render() {
     return `
     <hero-image></hero-image>
+    
     <form-contact></form-contact>
+    <our-spesial></our-spesial>
     `;
   },
 

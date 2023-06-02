@@ -6,7 +6,6 @@
 }
 
 .details-cafe h1 {
-  margin: 10px;
   color: rgba(162, 5, 5, 0.648);
 }
 
@@ -35,6 +34,21 @@
 .description h3 {
   font-size: 13px;
   margin: 10px auto;
+}
+
+.back a {
+  text-decoration: none;
+}
+.back a p {
+  border: 1px solid red;
+  color: white;
+  width: 100px;
+  background-color: brown;
+  text-align: center;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-weight: bold;
 }
 /* .footers {
   display: none;

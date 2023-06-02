@@ -18,8 +18,8 @@
 @media screen and (min-width: 650px) {
   .hero {
     width: 100%;
-    min-height: 700px;
-    background-image: url('../public/asset/cover2.JPG');
+    min-height: 550px;
+    background-image: url('../public/asset/aula2.JPG');
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 0px;

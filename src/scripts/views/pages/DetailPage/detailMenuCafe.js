@@ -9,8 +9,12 @@ const DetailMenucafe = {
     return `
    
     <div class="details-cafe">
-    <p>Back</p>
+    
      <h1>Detail Menu</h1>
+        </div>
+
+        <div class = "back">
+            <a href="#/cafe"><p>Kembali</p><a/>
         </div>
         `;
   },

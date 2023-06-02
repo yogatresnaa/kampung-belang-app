@@ -11,9 +11,10 @@ const templateMenuUtamaResto = (menu) => `
     <ul>
         <li><h2>${menu.title}</h2></li>
         <li><p>${menu.description}</p></li>
-        <li> <p>${menu.harga}</p></li>
+        <li><p>${menu.harga}</p></li>
     </ul>
-    <p>Pesan Sekarang</p>
+    <a href="https://bit.ly/3ZGg8J8"><p class="fa fa-whatsapp" aria-hidden="true"> Pesan Sekarang</p></a>
+    
 </div>
 `;
 
@@ -25,6 +26,7 @@ const templateMenuCafe = (menucafe) => `
              <h2>${menucafe.title}</h2>
               <p>${menucafe.harga}</p>
               <a href="#/detailmenucafe/${menucafe.id}"><p>Lihat Detail</p><a/>
+              <a href="https://bit.ly/3ZGg8J8"><h5 class="fa fa-whatsapp" aria-hidden="true"> Pesan Sekarang</h5></a>
         </div>
     </div
 

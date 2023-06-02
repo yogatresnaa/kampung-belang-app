@@ -8,6 +8,7 @@
 @import './footer.css';
 @import './tredmark.css';
 @import './hero.css';
+@import './resto.css';
 
 /* Cafe Page */
 @import '../scripts/component/Layanan/cafe/cafeinfo.css';
