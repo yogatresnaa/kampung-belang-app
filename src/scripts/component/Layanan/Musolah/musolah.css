@@ -1,0 +1,9 @@
+.hero-image-musola {
+  width: 90%;
+  margin: 70px auto;
+  padding: 20px;
+}
+
+.hero-image-musola img {
+  width: 100%;
+}

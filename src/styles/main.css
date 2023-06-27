@@ -27,6 +27,9 @@
 @import '../scripts/views/pages/PageDashboard/dashboard.css';
 @import '../scripts/views/pages/PageDashboard/table.css';
 
+/* musolah */
+@import '../scripts/component/Layanan/Musolah/musolah.css';
+
 * {
   padding: 0;
   margin: 0;

@@ -22,14 +22,14 @@ class HeaderNavigation extends HTMLElement {
       </div>
       <nav id="drawer" class="nav">
         <ul class="nav__list">
-          <li class="nav__item"><a href="#/home">Home</a></li>
-          <li class="nav__item"><a href="#/Favorite">Profile</a></li>
+          <li class="nav__item"><a href="#/home">Beranda</a></li>
+         
           <li class="nav__item"><a href="#">Layanan</a>
             <ul class="drop-down-menu">
                 <li><a href="#/cafe">Cafe</a></li>
                 <li><a href="#/restoran">Restoran</a></li>
                 <li><a href="#/aula">Aula Serbaguna</a></li>
-                <li><a href="#">Senam</a></li>
+                <li><a href="#/musolah">Musolah</a></li>
             </ul>
 
 
@@ -51,3 +51,6 @@ class HeaderNavigation extends HTMLElement {
 customElements.define('headers-nav', HeaderNavigation);
 
 //  <button id="hamburgerButton">☰</button>
+//  <li class='nav__item'>
+//    <a href='#/Favorite'>Profile</a>
+//  </li>

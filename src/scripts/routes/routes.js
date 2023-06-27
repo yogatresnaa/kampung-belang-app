@@ -5,6 +5,7 @@ import KpCace from '../views/pages/layanan/cafe';
 import RestoPage from '../views/pages/layanan/resto-page';
 import DetailMenucafe from '../views/pages/DetailPage/detailMenuCafe';
 import Aula from '../views/pages/layanan/aulaSerbaguna';
+import MusolaPage from '../views/pages/layanan/page-musolah';
 import ContactForm from '../views/pages/contactPage/ContactPage';
 import DashboardKampungBelang from '../views/pages/PageDashboard/DashboardKampungBelang';
 const routes = {
@@ -16,5 +17,6 @@ const routes = {
   '/aula': Aula,
   '/contact': ContactForm,
   '/dashboardkampungbelang': DashboardKampungBelang,
+  '/musolah': MusolaPage,
 };
 export default routes;

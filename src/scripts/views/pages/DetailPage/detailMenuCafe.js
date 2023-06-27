@@ -9,7 +9,6 @@ const DetailMenucafe = {
     return `
    
     <div class="details-cafe">
-    
      <h1>Detail Menu</h1>
         </div>
 

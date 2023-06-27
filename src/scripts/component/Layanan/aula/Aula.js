@@ -13,8 +13,7 @@ class AulaSerbaguna extends HTMLElement {
     <div class="aula-cafe">
     <div class="hero-image-aula">
        <img src="./asset/gedung_depan.JPG" alt"">
-    </div>
-    
+    </div> 
     </div>
     `;
   }
