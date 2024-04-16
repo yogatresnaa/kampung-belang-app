@@ -16,6 +16,7 @@ const Homepage = {
         <profil-singkat></profil-singkat>
         <slider-element></slider-element>
         <div class ="menus">
+
         </div>
        
         

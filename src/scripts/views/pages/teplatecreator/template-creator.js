@@ -38,9 +38,9 @@ const templateDetailmenucafe = (detailmenucafe) => `
         <div class="description">
               <h2>${detailmenucafe.title}</h2>
               <h3> ${detailmenucafe.description}</h3>
-              <p> Harga  ${detailmenucafe.harga}</p>
+              <p> Harga${detailmenucafe.harga}</p>
+              <a href="https://bit.ly/3ZGg8J8"><h5 class="fa fa-whatsapp" aria-hidden="true"> Pesan Sekarang</h5></a>
         </div>
-  
     </div
 
 `;
