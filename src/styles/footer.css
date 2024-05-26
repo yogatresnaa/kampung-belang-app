@@ -67,4 +67,7 @@
   .footers {
     grid-template-areas: 'picture service medsos';
   }
+  .picture-footer {
+    width: 150px;
+  }
 }

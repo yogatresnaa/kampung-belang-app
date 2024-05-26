@@ -31,10 +31,9 @@ class HeaderNavigation extends HTMLElement {
                 <li><a href="#/aula">Aula Serbaguna</a></li>
                 <li><a href="#/musolah">Musolah</a></li>
             </ul>
-
-
             </li>
           <li class="nav__item"><a href="#/contact">Hubungi Kami</a></li>
+          <li class="nav__item"><a href="#/like">Menu Favorit Pilihanmu</a></li>
 
         </ul>
       </nav>

@@ -34,3 +34,25 @@
   padding: 0;
   margin: 0;
 }
+
+.like {
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #db0000;
+  bottom: 16px;
+  left: 100px;
+  border-radius: 50%;
+  border: 0;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+
+.likeDetaiMenu {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}

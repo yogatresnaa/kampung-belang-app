@@ -4,6 +4,7 @@
 /* eslint-disable implicit-arrow-linebreak */
 /* eslint-disable indent */
 /* eslint-disable comma-dangle */
+
 const templateMenuUtamaResto = (menu) => `
  <div class="menu-picture">
     <p> ${menu.menu} </p>
@@ -93,4 +94,17 @@ const tempalteTableDataCustomer = (customers) => `
 <div>
 `;
 
-export { templateMenuUtamaResto, templateMenuCafe, templateDetailmenucafe, templateCardAula, tempalteTableDataCustomer };
+const createLikeButtonTemplate = () => `
+<button aria-label="like this movie" id="likeButton" class="like">
+    <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+
+</button>
+`;
+
+const createLikedButtonTemplate = () => `
+  <button aria-label="unlike this movie" id="likeButton" class="like">
+    <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+  </button>
+`;
+
+export { templateMenuUtamaResto, templateMenuCafe, templateDetailmenucafe, templateCardAula, tempalteTableDataCustomer, createLikeButtonTemplate, createLikedButtonTemplate };

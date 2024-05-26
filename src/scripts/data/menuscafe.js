@@ -91,4 +91,11 @@ const menuscafe = [
   },
 ];
 
-export default menuscafe;
+const DataCafe = {
+  menuCafe: menuscafe,
+  DATABASE_NAME: 'resto-catalogue-database',
+  DATABASE_VERSION: 1,
+  OBJECT_STORE_NAME: 'restoran',
+};
+
+export default DataCafe;

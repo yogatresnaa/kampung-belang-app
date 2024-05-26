@@ -34,8 +34,8 @@ class OurSpesial extends HTMLElement {
                 <p>Layanan Form Contac</p></a></h3>
             </div>
             <div class="menu6">
-                <h3><a href="#"><i class="fa fa-music" aria-hidden="true"></i>
-<p>Karoke/ <br> live Music</p></a></h3>
+                <h3><a href="#/like"><i class="fa fa-cart-plus" aria-hidden="true"></i>
+<p>Keranjang Anda</p></a></h3>
             </div>
             </div>
            

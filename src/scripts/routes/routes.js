@@ -8,6 +8,7 @@ import Aula from '../views/pages/layanan/aulaSerbaguna';
 import MusolaPage from '../views/pages/layanan/page-musolah';
 import ContactForm from '../views/pages/contactPage/ContactPage';
 import DashboardKampungBelang from '../views/pages/PageDashboard/DashboardKampungBelang';
+import Like from '../views/pages/like';
 const routes = {
   '/': Homepage, //default page
   '/home': Homepage,
@@ -18,5 +19,6 @@ const routes = {
   '/contact': ContactForm,
   '/dashboardkampungbelang': DashboardKampungBelang,
   '/musolah': MusolaPage,
+  '/like': Like,
 };
 export default routes;

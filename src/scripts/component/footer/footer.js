@@ -13,9 +13,9 @@ class Footer extends HTMLElement {
     this.innerHTML = `
 
     <footer class="footers">
+    
         <div class="picture-footer">
             <img src="/heros/kabel.png">
-            <p>Alamat  : <br>Jl. Mandor Tadjir No.184, Curug, Kec. Bojongsari, Kota Depok, Jawa Barat 16517</p>
         </div>
         <div class="service">
             <h2>Layanan Kami:</h2>
