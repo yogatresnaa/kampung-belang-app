@@ -35,7 +35,7 @@ class OurSpesial extends HTMLElement {
             </div>
             <div class="menu6">
                 <h3><a href="#/like"><i class="fa fa-cart-plus" aria-hidden="true"></i>
-<p>Keranjang Anda</p></a></h3>
+<p>Keranjang Favorit</p></a></h3>
             </div>
             </div>
            
