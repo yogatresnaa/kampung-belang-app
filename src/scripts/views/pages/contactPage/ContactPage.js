@@ -54,7 +54,7 @@ const insertCustomer = async (customer) => {
       body: JSON.stringify(customer),
     };
 
-    const response = await fetch(`${API_ENDPOINT.form}`, options);
+    const response = await fetch(API_ENDPOINT.form, options);
     console.log(response);
     const responseJson = await response.json();
     console.log(responseJson);
