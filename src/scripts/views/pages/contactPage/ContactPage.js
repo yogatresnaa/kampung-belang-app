@@ -49,6 +49,7 @@ const insertCustomer = async (customer) => {
       mode: 'cors',
       headers: {
         'Content-Type': 'application/json',
+        origin: 'https://resto-kampungbelang.netlify.app',
         // 'X-Auth-Token': '12345',
       },
       body: JSON.stringify(customer),
